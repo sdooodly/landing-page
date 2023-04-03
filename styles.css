@@ -1,101 +1,87 @@
-body{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+* {
+  padding: 10px;
+  color: rgb(151, 222, 137);
 }
 
-footer, header{
-    background-color: #1F2937;
-    width: 100%;
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
 
-.heroOne{
-    font-size: 40px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
-
+.one,
+.two,
+.three,
+.three-five,
+.four {
+  max-width: 1000px;
+  background-color: rgb(6, 26, 0);
 }
 
-.heroContent, .navi{
-    font-size: 18px;
-    color: #E5E7EB;
-
-
+footer,
+header {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
 }
 
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-
+.heroOne {
+  font-size: 40px;
+  font-weight: extra-bold;
 }
 
-button, .four{
-    background-color: #3882F6;
+.heroContent,
+.navi {
+  font-size: 18px;
 }
 
-.headingTwo{
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937;
+.logo {
+  font-size: 24px;
 }
 
-.three{
-    background-color: #E5E7EB;
-    max-width: 1200px;
+button,
+.four {
 }
 
-.quote{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: light;
-    color: #1F2937;
+.headingTwo {
+  font-size: 36px;
+  font-weight: extra-bold;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 100px;
-    margin: 0;
-}
-.navi{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-   
+.three {
+  max-width: 1200px;
 }
 
-.one{
-    display: flex;
-   justify-content: space-between;
-   margin: 50px;
-   
-   
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  margin: 0;
 }
-.oneLeft{
-    
-    
-}
-.oneRight{
-    
-    
-}
-.kuttyPic{
-    max-width: 100px;
-    height: auto;
-}
-.heroPic{
-    max-width: 500px;
-    height: auto;
-}
-.imageSection{
-    display: flex;
+.navi {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.one, .two, .three, .three-five, .four{
-    max-width: 1500px;
+.one {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
 }
-*{
-    padding: 10px
+.oneLeft {
+}
+.oneRight {
+}
+.kuttyPic {
+  max-width: 100px;
+  height: auto;
+}
+.heroPic {
+  max-width: 500px;
+  height: auto;
+}
+.imageSection {
+  display: flex;
 }
