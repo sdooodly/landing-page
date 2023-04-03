@@ -1,13 +1,18 @@
 body{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-footer, header, .one{
+footer, header{
     background-color: #1F2937;
+    width: 100%;
 }
 
 .heroOne{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: extra-bold;
     color: #F9FAF8;
 
@@ -38,6 +43,7 @@ button, .four{
 
 .three{
     background-color: #E5E7EB;
+    max-width: 1200px;
 }
 
 .quote{
@@ -56,22 +62,37 @@ header{
 .navi{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
    
 }
 
 .one{
     display: flex;
+   justify-content: space-between;
+   margin: 50px;
+   
+   
 }
 .oneLeft{
-    display: 50%;
+    
+    
 }
 .oneRight{
-    display: 50%;
+    
+    
 }
-img{
+.kuttyPic{
     max-width: 100px;
+    height: auto;
+}
+.heroPic{
+    max-width: 500px;
     height: auto;
 }
 .imageSection{
     display: flex;
+}
+
+.one, .two, .three, .three-five, four{
+    max-width: 1500px;
 }
