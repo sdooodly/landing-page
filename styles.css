@@ -22,43 +22,22 @@ body {
 
 footer,
 header {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(3, 11, 0);
   width: 100%;
-}
-
-.heroOne {
-  font-size: 40px;
-  font-weight: extra-bold;
-}
-
-.heroContent,
-.navi {
-  font-size: 18px;
-}
-
-.logo {
-  font-size: 24px;
-}
-
-button,
-.four {
-}
-
-.headingTwo {
-  font-size: 36px;
-  font-weight: extra-bold;
-}
-
-.three {
-  max-width: 1200px;
-}
-
-header {
+  height: 50px;
   display: flex;
-  justify-content: space-between;
-  padding: 10px 100px;
+  
+  align-items: center;
   margin: 0;
 }
+
+header{
+    justify-content: space-between;
+}
+footer{
+    justify-content: center;
+}
+
 .navi {
   display: flex;
   justify-content: space-between;
@@ -70,18 +49,24 @@ header {
   justify-content: space-between;
   margin: 50px;
 }
-.oneLeft {
+
+.oneLeft{
+    display: flex;
+    flex-direction: column;
 }
-.oneRight {
-}
+
+.heroPic {
+    max-width: 500px;
+    height: auto;
+  }
+
+
 .kuttyPic {
   max-width: 100px;
   height: auto;
 }
-.heroPic {
-  max-width: 500px;
-  height: auto;
-}
+
+
 .imageSection {
   display: flex;
 }
