@@ -3,19 +3,26 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
   color: rgb(154, 206, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  gap: 50px;
-  padding: 10px;
+  font-size: large;
   background-image: url("https://images.unsplash.com/photo-1612612377337-08573812b370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.overlayContainer{
+  background: linear-gradient(37deg, rgba(0, 24, 72, 0.807) 30%, #730062af 90%);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
 }
 
 .one,
@@ -23,8 +30,15 @@ body {
 .three,
 .three-five,
 .four {
-  max-width: 1000px;
+  
   background-color: rgba(0, 13, 27, 0.752);
+  flex: 1;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+
+  
+
 }
 
 footer,
@@ -79,7 +93,6 @@ footer {
 
 .one {
   display: flex;
-  justify-content: space-between;
   margin: 50px;
 }
 
@@ -102,10 +115,15 @@ footer {
 .three {
   display: flex;
   flex-direction: column;
+  align-items: center;
+ 
+ 
 }
 
 .imageSection {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -113,7 +131,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: small;
+  font-size: medium;
+  text-align: justify;
   max-width: 200px;
   height: 500px;
 }
@@ -124,4 +143,10 @@ footer {
 .contentFour {
   display: flex;
   flex-direction: column;
+ 
+}
+
+.three-five-content, .two{
+
+  text-align: justify;
 }
