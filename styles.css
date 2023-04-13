@@ -15,7 +15,7 @@ body {
   background: linear-gradient(37deg, rgba(0, 24, 72, 0.807) 30%, #730062af 90%);
   top: 0;
   left: 0;
-  bottom: 0;
+  
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,7 @@ body {
   align-items: center;
   gap: 50px;
   padding: 10px;
+  
 }
 
 .one,
@@ -30,6 +31,7 @@ body {
 .three,
 .three-five,
 .four {
+
   
   background-color: rgba(0, 13, 27, 0.752);
   flex: 1;
@@ -48,7 +50,6 @@ header {
   height: 50px;
   display: flex;
   padding: 0;
-
   align-items: center;
   margin: 0;
 }
