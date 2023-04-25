@@ -1,6 +1,7 @@
-* {
+/*
+{
   padding: 5px;
-}
+}*/
 
 body {
   color: rgb(154, 206, 255);
@@ -12,16 +13,17 @@ body {
 }
 
 .overlayContainer{
-  background: linear-gradient(37deg, rgba(0, 24, 72, 0.807) 30%, #730062af 90%);
+  background: linear-gradient(0deg, rgba(16, 3, 153, 0.656) 30%, #730062af 90%);
+  /* 
   top: 0;
   left: 0;
-  
+   */
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
   padding: 10px;
   
 }
@@ -32,8 +34,7 @@ body {
 .three-five,
 .four {
 
-  
-  background-color: rgba(0, 13, 27, 0.752);
+  background-color: rgba(7, 28, 52, 0.672);
   flex: 1;
   width: 100%;
   max-width: 1000px;
@@ -45,12 +46,12 @@ body {
 
 footer,
 header {
-  background-color: rgba(0, 0, 0, 0.752);
+  background-color: rgba(7, 28, 52, 0.672);
   width: 100%;
   height: 50px;
   display: flex;
-  padding: 0;
   align-items: center;
+  padding: 0;
   margin: 0;
 }
 
