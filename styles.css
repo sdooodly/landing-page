@@ -17,8 +17,9 @@ body {
   /* 
   top: 0;
   left: 0;
-   */
   width: 100vw;
+   */
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,6 +40,8 @@ body {
   width: 100%;
   max-width: 1000px;
   text-align: center;
+  margin: 0 100px;
+  padding: 0 100px;
 
   
 
@@ -94,8 +97,7 @@ footer {
 
 .one {
   display: flex;
-  margin: 10px;
-  padding: 10px;
+
 
 }
 
