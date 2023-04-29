@@ -1,21 +1,32 @@
-* {
+/*
+{
   padding: 5px;
-}
+}*/
 
 body {
-  background-color: rgb(0, 0, 0);
   color: rgb(154, 206, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  gap: 50px;
-  padding: 10px;
+  font-size: large;
   background-image: url("https://images.unsplash.com/photo-1612612377337-08573812b370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.overlayContainer{
+  background: linear-gradient(0deg, rgba(16, 3, 153, 0.656) 30%, #730062af 90%);
+  /* 
+  top: 0;
+  left: 0;
+  width: 100vw;
+   */
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  
 }
 
 .one,
@@ -23,19 +34,27 @@ body {
 .three,
 .three-five,
 .four {
+
+  background-color: rgba(7, 28, 52, 0.672);
+  flex: 1;
+  width: 100%;
   max-width: 1000px;
-  background-color: rgba(0, 13, 27, 0.752);
+  text-align: center;
+  margin: 0 100px;
+  padding: 0 100px;
+
+  
+
 }
 
 footer,
 header {
-  background-color: rgba(0, 0, 0, 0.752);
+  background-color: rgba(7, 28, 52, 0.672);
   width: 100%;
   height: 50px;
   display: flex;
-  padding: 0;
-
   align-items: center;
+  padding: 0;
   margin: 0;
 }
 
@@ -47,11 +66,13 @@ footer {
   justify-content: center;
 }
 
+
 .navi {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
+
 .icon {
   display: inline-block;
   margin: 0 10px;
@@ -65,13 +86,19 @@ footer {
 .linkedin-icon {
   background-image: url("https://www.linkedin.com/favicon.ico");
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1afdd2cc28e536c17e463f1254134b5c9570f007
 .github-icon {
   background-image: url("https://github.com/favicon.ico");
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1afdd2cc28e536c17e463f1254134b5c9570f007
 .gmail-icon {
   background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png");
   background-size: cover;
@@ -79,8 +106,8 @@ footer {
 
 .one {
   display: flex;
-  justify-content: space-between;
-  margin: 50px;
+
+
 }
 
 .oneLeft {
@@ -89,7 +116,7 @@ footer {
 }
 
 .heroPic {
-  max-width: 300px;
+  max-width: 70%;
   height: auto;
 }
 
@@ -102,10 +129,14 @@ footer {
 .three {
   display: flex;
   flex-direction: column;
+  align-items: center;
+ 
 }
 
 .imageSection {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -113,7 +144,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: small;
+  font-size: medium;
+  text-align: justify;
   max-width: 200px;
   height: 500px;
 }
@@ -124,4 +156,9 @@ footer {
 .contentFour {
   display: flex;
   flex-direction: column;
+ 
+}
+
+.three-five-content, .two{qs
+  text-align: justify;
 }
