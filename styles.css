@@ -61,17 +61,17 @@ footer {
   background-size: contain;
 }
 
-/* Style the LinkedIn icon */
+
 .linkedin-icon {
   background-image: url("https://www.linkedin.com/favicon.ico");
 }
 
-/* Style the GitHub icon */
+
 .github-icon {
   background-image: url("https://github.com/favicon.ico");
 }
 
-/* Style the Gmail icon */
+
 .gmail-icon {
   background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png");
   background-size: cover;
