@@ -6,6 +6,6 @@ Photo by <a href="https://unsplash.com/@dancristianpaduret?utm_source=unsplash&u
 
 03/05/2023
 -Fix hero pic
--Remove margin for header
+-Remove margin for header? I am not liking the gap now.
 -Make sign up button smaller and add a link to the reddit forum?
 -Is this responsive?
