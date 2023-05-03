@@ -6,14 +6,16 @@
 body {
   color: rgb(154, 206, 255);
   font-size: large;
-  background-image: url("https://images.unsplash.com/photo-1612612377337-08573812b370?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("./bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .overlayContainer{
-  background: linear-gradient(0deg, rgba(16, 3, 153, 0.656) 30%, #730062af 90%);
+  background: linear-gradient(0deg, rgba(7, 0, 85, 0.683) 30%, #2a0024ef 90%);
+  width: 100%;
   /* 
   top: 0;
   left: 0;
@@ -42,6 +44,7 @@ body {
   text-align: center;
   margin: 0 100px;
   padding: 0 100px;
+  text-align: justify;
 
   
 
@@ -54,8 +57,8 @@ header {
   height: 50px;
   display: flex;
   align-items: center;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 5px;
 }
 
 
@@ -86,19 +89,12 @@ footer {
 .linkedin-icon {
   background-image: url("https://www.linkedin.com/favicon.ico");
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 1afdd2cc28e536c17e463f1254134b5c9570f007
 .github-icon {
   background-image: url("https://github.com/favicon.ico");
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1afdd2cc28e536c17e463f1254134b5c9570f007
 .gmail-icon {
   background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png");
   background-size: cover;
@@ -138,6 +134,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .gallery {
@@ -159,6 +156,13 @@ footer {
  
 }
 
-.three-five-content, .two{qs
+.three-five-content, .two{
   text-align: justify;
+}
+
+.signUp{
+  margin: 10px 200px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.174);
+  color: rgb(154, 206, 255);
 }
